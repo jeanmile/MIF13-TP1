@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Manifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="rendu.xsd">
+	<Binome>
+		<Etudiant>
+			<Numero>1210179</Numero>
+			<Nom>LE</Nom>
+			<Prenom>Jean-Michel</Prenom>
+			<Groupe>3</Groupe>
+		</Etudiant>
+	</Binome>
+	
+	<Rendu nom="TP1">
+		<!-- XHTML -->
+		<Dossier nom="XHTML">
+			<Dossier nom="img">
+				<Fichier nom="anglais.png" />
+				<Fichier nom="bart.png" />
+				<Fichier nom="favicon.png" />
+				<Fichier nom="france.png" />
+			</Dossier>
+			<Dossier nom="css">
+					<Dossier nom="img">
+						<Fichier nom="body.jpg" />
+						<Fichier nom="content.jpg" />
+						<Fichier nom="footer.gif" />
+						<Fichier nom="header.jpg" />
+						<Fichier nom="enubottom.jpg" />
+						<Fichier nom="menuhover.gif"/>
+					</Dossier>
+					<Fichier nom="CV.css" />
+					<Fichier nom="style.css" />
+			</Dossier>
+			<Dossier nom="js" >
+				<Fichier nom="cv.js" />
+			</Dossier>
+			<Fichier nom="index.xhtml" />
+			<Fichier nom="formation.xhtml" />
+			<Fichier nom="experience.xhtml" />
+			<Fichier nom="divers.xhtml" />
+		</Dossier>
+		
+		<!-- XML -->
+		<Dossier nom="XML">
+			<Fichier nom="CV.xml" />
+			<Fichier nom="CV.dtd" />
+			<Fichier nom="CVEtudiant.xml" />
+			<Fichier nom="CVEtudiant.dtd" />
+		</Dossier>
+		
+		<!-- Shema -->
+		<Dossier nom="Shema">
+			<Fichier nom="CV.xml"/>
+			<Fichier nom="CV.xsd"/>
+		</Dossier>
+		
+		<!-- XSTL -->
+		<Dossier nom="XSTL">
+			<Fichier nom="CV.xml" />
+			<Fichier nom="CV.dtd" />
+			<Fichier nom="CV.xslt" />
+			<Fichier nom="XSL_Output.html" />
+		</Dossier>
+		
+		<!-- SVG -->
+		<Dossier nom="SVG">
+			<Dossier nom="pieces">
+				<Fichier nom="Tour_blanc.png"/>
+				<Fichier nom="Roi_blanc.png"/>
+				<Fichier nom="Pion_blanc.png"/>
+				<Fichier nom="Fou_blanc.png"/>
+				<Fichier nom="Dame_blanc.png"/>
+				<Fichier nom="Canasson_blanc.png"/>
+				<Fichier nom="Tour_noir.png"/>
+				<Fichier nom="Roi_noir.png"/>
+				<Fichier nom="Pion_noir.png"/>
+				<Fichier nom="Fou_noir.png"/>
+				<Fichier nom="Dame_noir.png"/>
+				<Fichier nom="Canasson_noir.png"/>
+			</Dossier>
+			<Fichier nom="index.html" />
+			<Fichier nom="style.css" />
+			<Fichier nom="echec.svg" />
+			<Fichier nom="echec.js" />
+		</Dossier>
+		
+		<Fichier nom="Rendu.xsd" />
+		<Fichier nom="contenu.xml" />
+	</Rendu>
+</Manifest>

@@ -1,0 +1,23 @@
+#echequier {
+    background-image: url(echec.svg);
+    height : 97%;
+    width : 98%;
+}
+
+.pieces {
+    position:relative;
+    height: 10%;
+    width: 10%
+}
+
+.ligneN {
+    position:relative;
+    top: 2%;
+    left: 6%;
+}
+
+.ligneB {
+    position:relative;
+    top: 42.5%;
+    left: 6%;
+}

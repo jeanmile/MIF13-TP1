@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no" ?>
+<!DOCTYPE CV SYSTEM "CV.dtd">
+<CV>
+<Entete>
+	<Etudiant Numero="000012">
+		<Nom>LE</Nom>
+		<Prenom>Jean-Michel</Prenom>
+		<Adresse>69009 Lyon 9eme</Adresse>
+		<Telephone>+33 4 00 00 00 00</Telephone>
+		<Email>jean-michel.le@etu.univ-lyon1.fr</Email>
+	</Etudiant>
+	<Titre>Awesome Etudiant tres brillant</Titre>
+</Entete>
+<Rubrique Titre="Formation">
+	<Item>
+		<Date>2011-2012</Date>
+		<Contenu>Master informatique</Contenu>
+	</Item>
+</Rubrique>
+<Rubrique Titre="Competences">
+	<Item>
+		<SousTitre>Langages informatiques</SousTitre>
+		<Contenu>XHTML/CSS</Contenu>
+		<Contenu>C/C++</Contenu>
+		<Contenu>Java</Contenu>
+	</Item>
+</Rubrique>
+</CV>
